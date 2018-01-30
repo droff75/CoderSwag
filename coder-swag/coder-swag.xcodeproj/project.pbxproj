@@ -17,6 +17,7 @@
 		CC75BB5F2020FAC400A2FACF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB5E2020FAC400A2FACF /* DataService.swift */; };
 		CC75BB612021080100A2FACF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB602021080100A2FACF /* ProductCell.swift */; };
 		CC75BB63202108AE00A2FACF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB62202108AE00A2FACF /* Product.swift */; };
+		CC75BB6520210E2400A2FACF /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB6420210E2400A2FACF /* ProductsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CC75BB5E2020FAC400A2FACF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		CC75BB602021080100A2FACF /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		CC75BB62202108AE00A2FACF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CC75BB6420210E2400A2FACF /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				CC75BB462020F24500A2FACF /* CategoriesVC.swift */,
+				CC75BB6420210E2400A2FACF /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC75BB6520210E2400A2FACF /* ProductsVC.swift in Sources */,
 				CC75BB472020F24500A2FACF /* CategoriesVC.swift in Sources */,
 				CC75BB452020F24500A2FACF /* AppDelegate.swift in Sources */,
 				CC75BB5A2020F6FA00A2FACF /* CategoryCell.swift in Sources */,
