@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CC75BB452020F24500A2FACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB442020F24500A2FACF /* AppDelegate.swift */; };
-		CC75BB472020F24500A2FACF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB462020F24500A2FACF /* ViewController.swift */; };
+		CC75BB472020F24500A2FACF /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB462020F24500A2FACF /* CategoriesVC.swift */; };
 		CC75BB4A2020F24500A2FACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC75BB482020F24500A2FACF /* Main.storyboard */; };
 		CC75BB4C2020F24500A2FACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC75BB4B2020F24500A2FACF /* Assets.xcassets */; };
 		CC75BB4F2020F24500A2FACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC75BB4D2020F24500A2FACF /* LaunchScreen.storyboard */; };
+		CC75BB5A2020F6FA00A2FACF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BB592020F6FA00A2FACF /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC75BB412020F24500A2FACF /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC75BB442020F24500A2FACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC75BB462020F24500A2FACF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC75BB462020F24500A2FACF /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		CC75BB492020F24500A2FACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC75BB4B2020F24500A2FACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC75BB4E2020F24500A2FACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC75BB502020F24500A2FACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC75BB592020F6FA00A2FACF /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		CC75BB432020F24500A2FACF /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				CC75BB582020F69200A2FACF /* View */,
+				CC75BB572020F68800A2FACF /* Model */,
+				CC75BB562020F67F00A2FACF /* Controller */,
 				CC75BB442020F24500A2FACF /* AppDelegate.swift */,
-				CC75BB462020F24500A2FACF /* ViewController.swift */,
 				CC75BB482020F24500A2FACF /* Main.storyboard */,
 				CC75BB4B2020F24500A2FACF /* Assets.xcassets */,
 				CC75BB4D2020F24500A2FACF /* LaunchScreen.storyboard */,
 				CC75BB502020F24500A2FACF /* Info.plist */,
 			);
 			path = "coder-swag";
+			sourceTree = "<group>";
+		};
+		CC75BB562020F67F00A2FACF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC75BB462020F24500A2FACF /* CategoriesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC75BB572020F68800A2FACF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC75BB582020F69200A2FACF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC75BB592020F6FA00A2FACF /* CategoryCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC75BB472020F24500A2FACF /* ViewController.swift in Sources */,
+				CC75BB472020F24500A2FACF /* CategoriesVC.swift in Sources */,
 				CC75BB452020F24500A2FACF /* AppDelegate.swift in Sources */,
+				CC75BB5A2020F6FA00A2FACF /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
